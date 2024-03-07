@@ -4,6 +4,14 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="@/assets/logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        PokeAPI
+      </a>
+    </div>
+  </nav>
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
